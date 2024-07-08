@@ -1,0 +1,3 @@
+Estos archvios hacen scrapping a 2 páginas diferentes de las cuales se toman boletines de incidencias de vulnerabilidades en colombia y de las nuevas CVE que van saliendo, esto se guarda en archvios de texto.
+Permitiendo consultar en cualquier momento la información requerida, el fin de este programa es facilitar el hallazgo de viulnerabilidades o amenazas en colombia ya que el ministerio TIC no tiene esta información 
+muy clara. Los informes generados salen con la fecha y hora de su creación al igual, consta de un menú interactivo en consola en el cual se puede navegar con los números 1, 2  y 0. 
