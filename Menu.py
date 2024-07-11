@@ -21,15 +21,18 @@ class Menu():
             2) Buscar Boletines de la COLCERT (Incidentes de ciberseguridad en Colombia)
             0) Salir\n
             """)
-            opc=int(input("Escribe la opción: "))
-            
-            if opc==1:
-                vulnerabilidad.vulnerabilidad()
-            elif opc==2:
-                boletin.boletines()
-            elif opc==0:
-                continuar=False
-            else:
-                print("Opción no válida...")
+            try :
+                opc=int(input("Escribe la opción: "))
+                
+                if opc==1:
+                    vulnerabilidad.vulnerabilidad()
+                elif opc==2:
+                    boletin.boletines()
+                elif opc==0:
+                    continuar=False
+                else:
+                    print("Opción no válida...")
+            except ValueError:
+                print("SOLO ESCRIBA NÚMEROS!!!!!!!!!!!!!!!!!!!!!!!!!")
         
         
